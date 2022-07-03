@@ -34,7 +34,7 @@ eureka:
 
 resilience4j.circuitbreaker:
     instances:
-        producMS:
+        productCB:
             registerHealthIndicator: true
             slidingWindowSize: 10
             permittedNumberOfCallsInHalfOpenState: 3
@@ -43,7 +43,7 @@ resilience4j.circuitbreaker:
             waitDurationInOpenState: 5s
             failureRateThreshold: 50
             eventConsumerBufferSize: 10
-        customerMS:
+        customerCB:
             registerHealthIndicator: true
             slidingWindowSize: 10
             permittedNumberOfCallsInHalfOpenState: 3
