@@ -58,5 +58,3 @@ management:
     web:
       exposure:
         incluse: "*"
-  security: 
-    enabled: false
