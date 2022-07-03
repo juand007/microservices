@@ -57,4 +57,11 @@ management:
   endpoints:
     web:
       exposure:
-        incluse: "*"
+        incluse: '*'
+        
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+    beans:
+      enabled: true

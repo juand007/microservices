@@ -38,9 +38,6 @@ management:
     web:
       exposure:
         incluse: '*'
-    jmx:
-      exposure:
-        include: '*'
         
   endpoint:
     health:
