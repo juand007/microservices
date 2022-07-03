@@ -39,3 +39,7 @@ management:
     web:
       exposure:
         incluse: "*"
+
+  endpoint:
+    health:
+      show-details: "ALWAYS"
